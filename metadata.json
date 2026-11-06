@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Assistant",
+  "description": "A premium AI-powered personal teacher and study assistant for Mathematics, Science, Computer Science, English, and more, featuring step-by-step doubt solving and interactive learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

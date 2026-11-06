@@ -1,0 +1,126 @@
+import { SubjectId, SubjectMeta, StudyModeId, StudyModeMeta } from '../types';
+
+export const SUBJECTS: SubjectMeta[] = [
+  {
+    id: 'Mathematics',
+    name: 'Mathematics',
+    shortDesc: 'Algebra, Calculus, Geometry, Probability, & Trig',
+    icon: 'Calculator',
+    gradient: 'from-blue-600 to-indigo-600',
+    badgeColor: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
+    sampleQuestions: [
+      'Solve and explain step by step: 2x² - 7x + 3 = 0',
+      'Explain the intuitive meaning of the derivative in Calculus',
+      'How do I calculate standard deviation and variance?',
+      'Prove why the Pythagorean theorem a² + b² = c² works',
+    ],
+  },
+  {
+    id: 'Science',
+    name: 'Science',
+    shortDesc: 'Physics, Chemistry, Biology, & Earth Sciences',
+    icon: 'Atom',
+    gradient: 'from-purple-600 to-indigo-600',
+    badgeColor: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
+    sampleQuestions: [
+      'Explain photosynthesis and cellular respiration with formulas',
+      "What is Newton's 3rd Law of Motion? Give real-life examples",
+      'How does covalent bonding differ from ionic bonding?',
+      'How does CRISPR gene editing technology work?',
+    ],
+  },
+  {
+    id: 'Computer Science',
+    name: 'Computer Science',
+    shortDesc: 'Algorithms, Data Structures, Networks & OS',
+    icon: 'Cpu',
+    gradient: 'from-indigo-600 to-violet-600',
+    badgeColor: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
+    sampleQuestions: [
+      'Explain Big-O notation with simple real-world comparisons',
+      'What is the difference between TCP and UDP protocols?',
+      'How do Binary Search Trees maintain logarithmic search time?',
+      'Explain how operating systems manage virtual memory and paging',
+    ],
+  },
+  {
+    id: 'Programming',
+    name: 'Programming',
+    shortDesc: 'Python, JavaScript, TypeScript, C++, Java, & SQL',
+    icon: 'Code2',
+    gradient: 'from-cyan-600 to-blue-600',
+    badgeColor: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20',
+    sampleQuestions: [
+      'Write a Python function to check for palindromes and explain it',
+      'Explain JavaScript async/await vs Promises with code examples',
+      'How do SQL JOINs (INNER, LEFT, RIGHT, FULL) differ visually?',
+      'Debug this error: TypeError: cannot read properties of undefined',
+    ],
+  },
+  {
+    id: 'English',
+    name: 'English',
+    shortDesc: 'Grammar, Essay Writing, Literature, & Vocabulary',
+    icon: 'BookOpen',
+    gradient: 'from-violet-600 to-fuchsia-600',
+    badgeColor: 'bg-violet-500/10 text-violet-400 border-violet-500/20',
+    sampleQuestions: [
+      'Review my thesis statement and suggest strong improvements',
+      'Explain the difference between active and passive voice',
+      'Analyze the symbolism of the green light in The Great Gatsby',
+      'Give me 5 advanced academic alternatives to common words',
+    ],
+  },
+  {
+    id: 'General Knowledge',
+    name: 'General Knowledge',
+    shortDesc: 'World History, Geography, Economics, & Current Affairs',
+    icon: 'Globe2',
+    gradient: 'from-blue-600 to-purple-600',
+    badgeColor: 'bg-sky-500/10 text-sky-400 border-sky-500/20',
+    sampleQuestions: [
+      'What were the primary root causes of World War I?',
+      'How does inflation work and how do central banks control it?',
+      'Explain the United Nations structure and veto power',
+      'What are the tectonic plates and how do earthquakes happen?',
+    ],
+  },
+];
+
+export const STUDY_MODES: StudyModeMeta[] = [
+  {
+    id: 'general',
+    name: 'AI Study Teacher',
+    tagline: 'Conversational mentoring and natural Q&A',
+    icon: 'Sparkles',
+    badge: 'Tutor',
+  },
+  {
+    id: 'doubt_solver',
+    name: 'Step-by-Step Doubt Solver',
+    tagline: 'Deconstruct hard problems into clear logical steps',
+    icon: 'HelpCircle',
+    badge: 'Doubt Solver',
+  },
+  {
+    id: 'concept_simplifier',
+    name: 'Concept Simplifier',
+    tagline: 'ELI5 explanations with real-world analogies',
+    icon: 'Lightbulb',
+    badge: 'ELI5',
+  },
+  {
+    id: 'code_tutor',
+    name: 'Code & CS Mentor',
+    tagline: 'Syntax explanation, Big-O, and bug fixing',
+    icon: 'Terminal',
+    badge: 'Code',
+  },
+  {
+    id: 'quiz_generator',
+    name: 'Practice Quiz Master',
+    tagline: 'Test knowledge with interactive questions',
+    icon: 'GraduationCap',
+    badge: 'Quiz',
+  },
+];
